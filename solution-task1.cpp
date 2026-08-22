@@ -4,7 +4,6 @@ class Operations{
 public:
 static int a;
 static int b;
-public:
 static int add(){
     return a+b;
 }
