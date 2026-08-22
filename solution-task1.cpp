@@ -2,11 +2,11 @@
 using namespace std;
 class Operations{
 public:
-static int a;
-static int b;
-static int add(){
-    return a+b;
-}
+    static int a;
+    static int b;
+    static int add(){
+        return a+b;
+    }
 };
 int Operations::a=0;
 int Operations::b=0;
